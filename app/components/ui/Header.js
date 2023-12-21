@@ -28,12 +28,8 @@ const links = [
         label: "Contacto",
         href: "/contacto"
 
-    },
-    {
-        label: "Post test",
-        href: "/posts"
-
     }
+    
 
 
 

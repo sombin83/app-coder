@@ -6,12 +6,13 @@ import Boton from "./Boton"
 
 const Counter=()=>{
 
-const[counter, setCounter]=useState(0)
+const[counter, setCounter]=useState(1)
 
 const increase=()=>setCounter(counter+1)
 const decrease=()=>{
-    if (counter!=0) 
+    if (counter!=1) 
     setCounter(counter-1)
+    
  }
  
 
