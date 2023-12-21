@@ -8,7 +8,7 @@ import GoBack from "../ui/GoBack"
 const ProductDetail = async ({ slug }) => {
 
    //const item = mockData.find(p => p.slug === slug)
-   const item = await fetch (`http://localhost:3000/api/cafe/${slug}`, 
+   const item = await fetch (`http://${process.env.VERCEL_URL}/api/cafe/${slug}`, 
    {cache: "no-store"
   
    }
