@@ -32,14 +32,14 @@ const Posts = async () => {
 
           <ul>
             {
-              posts.map((post)=>(
+            /*  posts.map((post)=>(
                 <Link href={`/posts/${post.id}`}>
                 <li key={post.id}>
                     {post.id} - {post.title}
 
                 </li>
                 </Link>
-              ))
+              ))*/
 
             }
           </ul>
