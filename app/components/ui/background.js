@@ -14,6 +14,7 @@ const Background = () => {
                 fill={true}
                 layout={'fill'}
                 className={'cover'}
+                
             />
         </div>
 
