@@ -30,11 +30,7 @@ const links = [
 
     },
 
-    {
-        label: "Posts",
-        href: "/posts"
-
-    }
+   
     
 
 
