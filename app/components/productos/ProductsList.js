@@ -3,7 +3,8 @@ import ProductCard from "./ProductCard"
 
 const ProductsList = async ({ region }) => {
 
-    const items = await fetch (`http://${process.env.VERCEL_URL}/api/cafes/${region}`, 
+    //${process.env.VERCEL_URL}
+    const items = await fetch (`http://localhost:3000/api/cafes/${region}`, 
     {cache: "no-store"
    
     }
